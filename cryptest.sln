@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptest", "cryptest.vcxproj", "{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C39F4B46-6E89-4074-902E-CA57073044D2} = {C39F4B46-6E89-4074-902E-CA57073044D2}
@@ -22,6 +24,8 @@ Global
 		DLL-Import Debug|x64 = DLL-Import Debug|x64
 		DLL-Import Release|Win32 = DLL-Import Release|Win32
 		DLL-Import Release|x64 = DLL-Import Release|x64
+		MT|Win32 = MT|Win32
+		MT|x64 = MT|x64
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
@@ -38,6 +42,10 @@ Global
 		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.DLL-Import Release|Win32.Build.0 = DLL-Import Release|Win32
 		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.DLL-Import Release|x64.ActiveCfg = DLL-Import Release|x64
 		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.DLL-Import Release|x64.Build.0 = DLL-Import Release|x64
+		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.MT|Win32.ActiveCfg = Release|Win32
+		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.MT|Win32.Build.0 = Release|Win32
+		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.MT|x64.ActiveCfg = Release|x64
+		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.MT|x64.Build.0 = Release|x64
 		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.Release|Win32.ActiveCfg = Release|Win32
 		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.Release|Win32.Build.0 = Release|Win32
 		{09CDAC08-E6AE-48A9-8DE7-0FBC779EEBDE}.Release|x64.ActiveCfg = Release|x64
@@ -54,6 +62,10 @@ Global
 		{C39F4B46-6E89-4074-902E-CA57073044D2}.DLL-Import Release|Win32.Build.0 = DLL-Import Release|Win32
 		{C39F4B46-6E89-4074-902E-CA57073044D2}.DLL-Import Release|x64.ActiveCfg = DLL-Import Release|x64
 		{C39F4B46-6E89-4074-902E-CA57073044D2}.DLL-Import Release|x64.Build.0 = DLL-Import Release|x64
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.MT|Win32.ActiveCfg = Release|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.MT|Win32.Build.0 = Release|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.MT|x64.ActiveCfg = MT|x64
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.MT|x64.Build.0 = MT|x64
 		{C39F4B46-6E89-4074-902E-CA57073044D2}.Release|Win32.ActiveCfg = Release|Win32
 		{C39F4B46-6E89-4074-902E-CA57073044D2}.Release|Win32.Build.0 = Release|Win32
 		{C39F4B46-6E89-4074-902E-CA57073044D2}.Release|x64.ActiveCfg = Release|x64
@@ -68,6 +80,8 @@ Global
 		{1974A53A-9863-41C9-886D-B2B8C2FC3C8B}.DLL-Import Release|Win32.Build.0 = Release|Win32
 		{1974A53A-9863-41C9-886D-B2B8C2FC3C8B}.DLL-Import Release|x64.ActiveCfg = Release|x64
 		{1974A53A-9863-41C9-886D-B2B8C2FC3C8B}.DLL-Import Release|x64.Build.0 = Release|x64
+		{1974A53A-9863-41C9-886D-B2B8C2FC3C8B}.MT|Win32.ActiveCfg = Release|Win32
+		{1974A53A-9863-41C9-886D-B2B8C2FC3C8B}.MT|x64.ActiveCfg = Release|x64
 		{1974A53A-9863-41C9-886D-B2B8C2FC3C8B}.Release|Win32.ActiveCfg = Release|Win32
 		{1974A53A-9863-41C9-886D-B2B8C2FC3C8B}.Release|x64.ActiveCfg = Release|x64
 		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -80,10 +94,15 @@ Global
 		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.DLL-Import Release|Win32.Build.0 = Release|Win32
 		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.DLL-Import Release|x64.ActiveCfg = Release|x64
 		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.DLL-Import Release|x64.Build.0 = Release|x64
+		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.MT|Win32.ActiveCfg = Release|Win32
+		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.MT|x64.ActiveCfg = Release|x64
 		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.Release|Win32.ActiveCfg = Release|Win32
 		{94A428A1-9BA8-4DB2-B76E-BD2E3C08F257}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65CE0FE9-C45B-4626-AE9F-8034F4BC64B7}
 	EndGlobalSection
 EndGlobal
